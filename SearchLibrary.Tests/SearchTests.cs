@@ -15,7 +15,7 @@ namespace SearchLibrary.Tests
         public void T1_KeyFoundAtMiddle_ReturnsIndex()
         {
             int[] arr = { 1, 3, 5, 7, 9 };
-            Assert.That(_bs.Search(5, arr), Is.EqualTo(3));
+            Assert.That(_bs.Search(5, arr), Is.EqualTo(2));
         }
 
         [Test]
